@@ -16,3 +16,6 @@ article.new {
 .new.topic {
   background-color: red;
 }
+.new, .posted-today {
+  background-color: pink
+}
