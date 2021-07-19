@@ -6,13 +6,13 @@
 .theory::first-line {
   font-size: 24px;
 }
-.theory::selection {
+p.theory::selection {
   background-color: red;
   color: white;
 }
 a::before {
-  content: '> ';
+  content: '>';
 }
 a::after {
-  content: ' <';
+  content: '<';
 }
