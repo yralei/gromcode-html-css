@@ -10,7 +10,7 @@ li:last-child > span {
   color: white;
 }
 li:nth-of-type(even) {
-  font-size: 16px;
+  margin-left: 16px;
 }
 .paragraphs > p:nth-of-type(odd) {
   background-color: grey;
