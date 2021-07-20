@@ -2,7 +2,7 @@
   background-color: antiquewhite;
 }
 .box {
-  box-sizing: content-box;
+  
   border: 8px solid black;
   margin: 16px;
   padding: 16px;
@@ -10,8 +10,10 @@
   height: 128px;
 }
 .box1 {
+  box-sizing: content-box;
   background-color: aquamarine;
 }
 .box2 {
+  box-sizing: border-box;
   background-color: azure;
 }
