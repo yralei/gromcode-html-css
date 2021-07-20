@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.figure1 {
+  background-color: forestgreen;
+  width: 100px;
+  height: 50px;
+  margin: 50px;
+  border-radius: 16px;
+}
+.figure2 {
+  background-color: darkmagenta;
+  width: 100px;
+  height: 50px;
+  margin: 50px;
+  border-radius: 50%;
+}
+.figure3 {
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  border-radius: 50%;
+}
+.figure4 {
+  border: 50px solid transparent;
+  border-top-color: brown;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
