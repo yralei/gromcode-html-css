@@ -10,10 +10,10 @@ h2 {
 li {
   color: blue;
 }
-p {
+div p {
   background-color: yellow;
 }
-input {
+label > input {
   border: 3px solid red;
 }
 .hello {
@@ -22,10 +22,10 @@ input {
 #special {
   border: 2px solid blue;
 }
-p > div:disabled {
+body > div > p {
   font-size: 25px;
 }
-input[type="text"] {
+input[type*="text"] {
   background-color: gray;
 }
 div p:nth-child(3) {
