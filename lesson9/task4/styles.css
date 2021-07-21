@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
 }
-header {
+.header {
   height: 50px;
   background-color: yellow;
+  clear: both;
 }
 .sidebar {
   height: 500px;
@@ -11,7 +12,7 @@ header {
   width: 20%;
   float: right;
 }
-main {
+.content {
   height: 500px;
   background-color: pink;
   width: 80%;
