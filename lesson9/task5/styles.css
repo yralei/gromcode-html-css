@@ -7,21 +7,24 @@
   background-color: darkturquoise;
   width: 2520px;
   z-index: 1;
+  left: 0;
+  top: 0;
 }
 .navigation {
   height: 40px;
 }
 .nav-list {
   margin: 0;
-  height: 0;
+  height: 40px;
 }
 .nav-item {
   position: relative;
-  display: inline;
+  float: left;
   padding: 0px 5px;
   left: 16px;
   color: white;
   line-height: 40px;
+  list-style-type: none;
 }
 .content {
   height: 5000px;
