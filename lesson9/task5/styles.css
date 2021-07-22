@@ -1,6 +1,6 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 .header {
   position: fixed;
   height: 40px;
@@ -13,18 +13,20 @@
 .navigation {
   height: 40px;
   z-index: 2;
+  width: 100%;
 }
 .nav-list {
   margin: 0;
-  height: 40px;
   z-index: 3;
 }
 .nav-item {
+  display: inline-block;
   position: relative;
   float: left;
-  padding: 0px 0px 0px 16px;
+  left: 16px;
+  margin-right: 16px;
   color: white;
-  line-height: 40px;
+  line-height: 250%;
   list-style-type: none;
   z-index: 4;
 }
