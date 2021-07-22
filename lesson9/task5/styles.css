@@ -5,13 +5,15 @@
   position: fixed;
   height: 40px;
   background-color: darkturquoise;
-  width: 2560px;
+  width: 2520px;
+  z-index: 1;
 }
 .navigation {
   height: 40px;
 }
 .nav-list {
   margin: 0;
+  height: 0;
 }
 .nav-item {
   position: relative;
@@ -32,6 +34,7 @@
   background-color: aquamarine;
   top: calc(50% - 100px);
   left: calc(50% - 100px);
+  z-index: 0;
 }
 .ear {
   height: 60px;
