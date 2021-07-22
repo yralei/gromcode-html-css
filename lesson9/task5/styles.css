@@ -1,30 +1,32 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 .header {
   position: fixed;
   height: 40px;
   background-color: darkturquoise;
-  width: 2520px;
   z-index: 1;
   left: 0;
   top: 0;
+  width: 100%;
 }
 .navigation {
   height: 40px;
+  z-index: 2;
 }
 .nav-list {
   margin: 0;
   height: 40px;
+  z-index: 3;
 }
 .nav-item {
   position: relative;
   float: left;
-  padding: 0px 5px;
-  left: 16px;
+  padding: 0px 0px 0px 16px;
   color: white;
   line-height: 40px;
   list-style-type: none;
+  z-index: 4;
 }
 .content {
   height: 5000px;
