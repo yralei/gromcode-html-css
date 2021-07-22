@@ -16,10 +16,10 @@
 .nav-item {
   position: relative;
   display: inline;
-  top: 10px;
   padding: 0px 5px;
   left: 16px;
   color: white;
+  line-height: 40px;
 }
 .content {
   height: 5000px;
