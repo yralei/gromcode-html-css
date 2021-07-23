@@ -1,10 +1,6 @@
 * {
   box-sizing: border-box;
 }
-body {
-  display: block;
-  margin: 0;
-}
 .text {
   margin: 16px;
   display: inline-flex;
