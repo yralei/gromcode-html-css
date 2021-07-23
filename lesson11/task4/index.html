@@ -1,9 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .text {
+        margin: 16px;
+        display: inline-flex;
+        position: relative;
+        border-bottom: 1px dotted black;
+      }
+      .tooltip {
+        background-color: gray;
+        color: white;
+        border-radius: 4px;
+        padding: 8px;
+        position: absolute;
+        bottom: -40px;
+        display: none;
+      }
+      .text:hover .tooltip {
+        display: block;
+      }
+    </style>
     <meta charset="UTF-8" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
