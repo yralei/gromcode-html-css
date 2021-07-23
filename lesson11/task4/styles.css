@@ -3,7 +3,7 @@
 }
 .text {
   margin: 16px;
-  display: inline-flex;
+  display: inline-block;
   position: relative;
   border-bottom: 1px dotted black;
 }
