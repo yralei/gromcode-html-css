@@ -12,6 +12,9 @@
   height: 40px;
   background-color: green;
 }
+.footer > span {
+  margin: auto;
+}
 .navigation {
   margin: 0;
   display: flex;
@@ -40,20 +43,31 @@
   justify-content: center;
   align-items: center;
 }
-.news {
-  line-height: 40px;
+.board > h2 {
+  margin: auto;
+}
+.newsbar {
   flex-direction: column;
   display: flex;
   width: 200px;
   background-color: grey;
 }
+.newsbar > h2 {
+  margin: 16px auto;
+}
 .news_li {
   margin: 0;
+  padding: 0;
+}
+.news_li > li {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  padding: 0;
   margin-left: 16px;
+  height: 40px;
+}
+.news_li > li > span {
+  margin: auto 0;
 }
 
 .news_title {
