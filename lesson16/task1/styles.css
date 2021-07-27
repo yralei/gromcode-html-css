@@ -1,4 +1,6 @@
-div,
-label {
+.form-control {
+  margin: 16px;
+}
+.choose-gender {
   margin: 16px;
 }
