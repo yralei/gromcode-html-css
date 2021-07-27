@@ -1,0 +1,8 @@
+.form {
+  margin: 32px;
+}
+.form-controls,
+.languages {
+  display: block;
+  margin: 8px;
+}
