@@ -12,12 +12,7 @@ td {
   text-align: center;
   border: 1px solid black;
 }
-/* .top-row > td {
-  border-bottom: 1px solid black; */
-/* } */
-/* .bottom-row > td {
-  border-top: 1px solid black;
-} */
+
 tr > td:first-child {
   border: none;
   background-color: white !important;
