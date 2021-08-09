@@ -3,7 +3,7 @@
 }
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #555;
+  color: #555555;
   font-size: 16px;
 }
 body {
@@ -13,14 +13,13 @@ body {
 }
 .header {
   text-align: center;
-  background-image: linear-gradient(60deg, red, yellow);
+  background: linear-gradient(60deg, red, orange);
   color: white;
 }
-
 .footer {
-  text-align: center;
   background-color: #e5e5e5;
   padding: 0.5em;
+  text-align: center;
 }
 main {
   display: flex;
@@ -31,9 +30,13 @@ main {
   width: 20%;
 }
 .section {
+  padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
+}
+.news {
   padding: 0.5em;
+  width: 20%;
 }
 .units-list {
   line-height: 1.75em;
@@ -45,8 +48,8 @@ main {
   font-weight: 700;
 }
 .section__header {
-  text-align: center;
   font-size: 5vw;
+  text-align: center;
 }
 .nav-list {
   padding: 0;
@@ -54,19 +57,16 @@ main {
 }
 .nav-list-item {
   background-color: #808080;
-  height: 2em;
+  color: white;
+  line-height: 2em;
   margin-bottom: 0.5em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 .nav-list-link {
-  color: white;
   text-decoration: none;
-}
-.news {
-  padding: 0.5em;
-  width: 20%;
+  color: white;
 }
