@@ -1,0 +1,27 @@
+@import 'layout.scss';
+* {
+  box-sizing: border-box;
+}
+@include for-medium-up {
+  .content_navigation-products {
+    display: flex;
+  }
+  .content__navigation,
+  .content__products-list {
+    width: 50vw;
+  }
+}
+@include for-large-up {
+  .content {
+    display: flex;
+  }
+  .content__navigation,
+  .content__products-list,
+  .content__news {
+    width: 20vw;
+    flex-grow: 1;
+  }
+  .content_navigation-products {
+    flex-grow: 2;
+  }
+}

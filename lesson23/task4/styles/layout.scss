@@ -1,0 +1,36 @@
+.content__item {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content__navigation {
+  background-color: #ff7f50;
+}
+
+.content__products-list {
+  background-color: #006400;
+}
+
+.content__news {
+  background-color: #0ff;
+}
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: lowercase;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #faebd7;
+}
+@mixin for-medium-up {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin for-large-up {
+  @media screen and (min-width: 900px) {
+    @content;
+  }
+}
